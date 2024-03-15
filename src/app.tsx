@@ -129,7 +129,7 @@ export function App() {
             <div class="element-title">Computer Science and Economics</div>
             <div class="element-subtitle">
               <i class="fa fa-calendar"></i>
-              September 2022 – 2025
+              September 2023 – 2026
             </div>
             <div class="element-content">
               Academy of Economic Studies of Bucharest. Faculty of Cibernetics, Computer Science, and Statistics.
