@@ -61,7 +61,7 @@ export function App() {
               with Pandas, while the Visual Programming courses focused on teaching the basics of programming through game development.
             </div>
           </div>
-          <div class="spacing" style={{ marginBottom: "40px" }} />
+          <div class="spacing" style={{ marginBottom: "62px" }} />
           <div class="header">Projects</div>
           <div class="element">
             <div class="element-title">
@@ -172,10 +172,6 @@ export function App() {
                   <a href="https://www.youtube.com/watch?v=U9Lix_8QkkE">Deliver Bullets </a> - Top Down shooting
                   game where you fight different enemies,
                   find better weapons, explode barrels, and slow time.
-                </li>
-                <li>
-                  <a href="https://vector-editor.netlify.app/">Vector Editor</a> - Written in the functional programming language Elm
-                  for the InfoEducatie contest. An app for drawing and editing SVG Images. The files can be saved and loaded as JSON.
                 </li>
               </ul>
             </div>
