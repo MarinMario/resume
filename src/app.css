@@ -64,7 +64,7 @@
 }
 
 #root > .cell > .container > .element {
-  border-bottom: 1px dashed black;
+  /* border-bottom: 1px dashed black; */
   padding-bottom: 1rem;
   width: 100%;
 }
@@ -133,4 +133,16 @@
 
 .spacing {
   flex-grow: 1;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.margin-bottom {
+  margin-bottom: 5px;
+}
+
+.margin-left {
+  margin-left: 1px;
 }

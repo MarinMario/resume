@@ -38,15 +38,15 @@ export function App() {
         <div class="container">
           <div class="header">Work experience</div>
           <div class="element">
-            <div class="element-title">Frontend Developer at NXP</div>
+            <div class="element-title">Frontend Developer Internship at NXP</div>
             <div class="element-subtitle">
               <i class="fa fa-calendar"></i>
               May 2023 - Current
             </div>
             <div class="element-content">
-              As a frontend developer I worked on the main dashboard of our team.
-              I completed dozens of Jira tickets with over 300 commits on Bitbucket for features, bug fixes, and refactoring.
-              The main tools I used were React, TypeScript, Vite, Python, and AWS.
+              Created a centralized dashboard for team and management usage.
+              My main tools were React, TypeScript, Vite, Python, and AWS. For version control we used Git with Bitbucket and
+              Jira for managing tickets.
             </div>
           </div>
           <div class="element">
@@ -56,58 +56,61 @@ export function App() {
               October 2022 - July 2023
             </div>
             <div class="element-content">
-              As a programming trainer I mainly held Python courses, but also Visual Programming courses.
-              The Python courses focused on programming mastery with a touch of game development with Pygame and data cleaning
-              with Pandas, while the Visual Programming courses focused on teaching the basics of programming through game development.
+              I worked as a teacher for high school and middle school students. My classes were focused on programming basics for
+              Python and Game Development.
             </div>
           </div>
-          <div class="spacing" style={{ marginBottom: "62px" }} />
+          <div class="spacing" style="margin-bottom: 1rem;" />
           <div class="header">Projects</div>
           <div class="element">
             <div class="element-title">
-              Dashboard for data viewing, and board reservation and management
+              Centralized Dashboard for Team Usage
             </div>
             <div class="element-content">
-              <ul>
-                <li>
-                  Over 300 commits and dozens of tickets completed in the
-                  span of a year for new features, bug fixes, and refactoring.
-                </li>
-                <li>
-                  Fully typesafe frontend written in TypeScript with React
-                  and Vite. For the backend we used Python with AWS and Serverless.
-                </li>
-                <li>
-                  2 types of authentication with Proprietary SSO and Cognito.
-                </li>
-                <li>
-                  Board inventory - A system for adding, editing, and deleting boards
-                  from a database. It contains a board table that is sortable and filterable.
-                </li>
-                <li>
-                  Board reservation - A system for reserving boards that gives users
-                  access to them. Board reservations can be scheduled or
-                  reserved whenever they are available. It contains a calendar view of the reserved boards.
-                </li>
-                <li>
-                  Metrics pages - Pages that can show multiple charts of selected data from
-                  multiple categories of statistics. The charts are interactive, filterable, and sortable.
-                </li>
-                <li>
-                  Config Builder - A way for admin users to extend the dashboard with
-                  new pages written in a JSON editor inside the app for other users
-                  to fill them in and save the data.
-                </li>
-                <li>
-                  Preferences saving and loading - Sorting, filters, and selections
-                  can be saved in the database to be reloaded when the user accesses the page again.
-                </li>
-                <li>
-                  Permission management - Admin users can edit permissions
-                  of GET, POST, and DELETE to restrict access to certain
-                  pages of the Dashboard for other users.
-                </li>
-              </ul>
+              CRUD SPA that features a fully typesafe frontend written in TypeScript with React and Vite.
+              For the backend we used Python with AWS and Serverless.
+              <br />
+              It features systems for authentication, inventory management, board reservations, usage metrics,
+              access management, features to extend the dashboard, and much more.
+            </div>
+            <div class="element-title">
+              Board Inventory System
+            </div>
+            <div class="element-content">
+              A page for managing boards. The data is inputed by the user and saved in a DynamoDB table.
+              A JSON configuration file is used to generate the input fields so that the frontend doesn't need to be updated
+              every time a new field is needed.
+            </div>
+            <div class="element-title">
+              Board Reservation System
+            </div>
+            <div class="element-content">
+              A page managing board reservations. The board data is taken from the same table and configuration file as
+              the inventory system. It features instant reservations and scheduled reservations. Instant reservations start from the
+              moment that the board is free to use while scheduled reservations feature a calendar view where you can choose only
+              valid timeframes.
+            </div>
+            <div class="element-title">
+              Metrics Builder
+            </div>
+            <div class="element-content">
+              A page for seeing data about server and board usage. It features a system for creating charts and chart containers
+              that can be shared with other people.
+            </div>
+            <div class="element-title">
+              Config Builder
+            </div>
+            <div class="element-content">
+              A page for creating configuration file schemas that can be filled in by users.
+              It features a JSON based Domain Specific Language for generating pages,
+              a text editor, and a result view for instant feedback on the page creation.
+            </div>
+            <div class="element-title">
+              Permission Management System
+            </div>
+            <div class="element-content">
+              A page for managing user access. Admin users can edit permissions
+              of GET, POST, and DELETE to restrict access to certain pages.
             </div>
           </div>
           <Commented>
@@ -142,14 +145,14 @@ export function App() {
           <div id="skills">
             <div class="skill-level">Proeficient</div>
             <div class="skill-contents">
-              TypeScript - React - Node - HTML - CSS - Godot
+              TypeScript - React - HTML - CSS - Godot
             </div>
             <div class="skill-level">Intermediate</div>
             <div class="skill-contents">
-              C# - Git - Python
+              C# - Git - Python - Node
             </div>
             <div class="skill-level">Starter</div>
-            <div class="skill-contents">AWS - Serverless - Unity - Elm</div>
+            <div class="skill-contents">AWS - Serverless - Unity</div>
             <div class="skill-level">Languages</div>
             <div class="skill-contents">Romanian - English</div>
           </div>
@@ -157,23 +160,28 @@ export function App() {
         <div class="container">
           <div class="header">Activities</div>
           <div class="element">
-            <div class="element-title">Personal Projects</div>
+            <div class="element-title margin-left">Personal Projects</div>
             <div class="element-content">
-              <ul>
-                <li>
-                  <a href="https://youtu.be/M9Y0Z8xiKIs?si=_n822txSEmuB-Uli">2D Bow Shooting Platformer</a> - Written
-                  in C# with Raylib and uses solid OOP principles.
-                  It includes systems like sprite animation, keyframe animation,
-                  collision detection and resolution,
-                  <a href="https://www.youtube.com/watch?v=RsuXcNXFFWQ"> inverse kinematics for procedural animation</a>
-                  , <a href="https://www.youtube.com/watch?v=LCc6O_acg2Q">level editor</a>.
-                </li>
-                <li>
-                  <a href="https://www.youtube.com/watch?v=U9Lix_8QkkE">Deliver Bullets </a> - Top Down shooting
-                  game where you fight different enemies,
-                  find better weapons, explode barrels, and slow time.
-                </li>
-              </ul>
+              <div class="bold">
+                <a href="https://youtu.be/M9Y0Z8xiKIs?si=_n822txSEmuB-Uli">2D Bow Shooting Platformer</a>
+              </div>
+              <div>
+                Written in C# with Raylib using OOP principles.
+              </div>
+              <div class="margin-bottom">
+                It includes systems like sprite animation, keyframe animation,
+                collision detection and resolution,
+                <a href="https://www.youtube.com/watch?v=RsuXcNXFFWQ"> inverse kinematics for procedural animation</a>
+                , <a href="https://www.youtube.com/watch?v=LCc6O_acg2Q">level editor</a>.
+              </div>
+              <div class="bold">
+                <a href="https://www.youtube.com/watch?v=U9Lix_8QkkE">Deliver Bullets </a>
+              </div>
+              <div>
+                Top Down shooting
+                game where you fight different enemies,
+                find better weapons, explode barrels, and slow time.
+              </div>
             </div>
           </div>
           {/* <div class="element">
@@ -193,28 +201,41 @@ export function App() {
           </div> */}
           <div class="element">
             <div class="element-title">Game Jams</div>
-            <div class="element-content">
-              <ul>
-                <li>
-                  <a href="https://maoitsme.itch.io/robot-warfare">GMTK Jam 2020</a> - Plants vs Zombies clone with Robots and Machines.
-                </li>
-                <li>
-                  <a href="https://maoitsme.itch.io/cave-treasuring">Community Game Jam</a> - Top Down game about
-                  exploring a cave to find a treasure. On the way you can
-                  interact with characters, fight monsters, and find better equipment.
-                </li>
-                <li>
-                  <a href="https://maoitsme.itch.io/santa-giftrun">Discord Jam 3</a> - Hyper Casual game
-                  where you play as Santa and jump over buildings to deliver presents.
-                </li>
-                <li>
-                  <a href="https://maoitsme.itch.io/sword-of-steiner">Ludum Dare 46</a> - Top Down sword fighting game.
-                </li>
-                <li>
-                  <a href="https://maoitsme.itch.io/hellgirl">Mini Jam 69</a> - A horror game where you play as a girl that is stuck in a randomly generated labyrinth in search
-                  for a weapon that can bring down the monster that's following you.
-                </li>
-              </ul>
+            <div class="element-content margin-left">
+              <div class="bold">
+                <a href="https://maoitsme.itch.io/robot-warfare">GMTK Jam 2020</a>
+              </div>
+              <div class="margin-bottom">
+                Plants vs Zombies clone with Robots and Machines.
+              </div>
+              <div class="bold">
+                <a href="https://maoitsme.itch.io/cave-treasuring">Community Game Jam</a>
+              </div>
+              <div class="margin-bottom">
+                Top Down game about
+                exploring a cave to find a treasure. On the way you can
+                interact with characters, fight monsters, and find better equipment.
+              </div>
+              <div class="bold">
+                <a href="https://maoitsme.itch.io/santa-giftrun">Discord Jam 3</a>
+              </div>
+              <div class="margin-bottom">
+                Hyper Casual game
+                where you play as Santa and jump over buildings to deliver presents.
+              </div>
+              <div class="bold">
+                <a href="https://maoitsme.itch.io/sword-of-steiner">Ludum Dare 46</a>
+              </div>
+              <div class="margin-bottom">
+                Top Down sword fighting game.
+              </div>
+              <div class="bold">
+                <a href="https://maoitsme.itch.io/hellgirl">Mini Jam 69</a>
+              </div>
+              <div class="margin-bottom">
+                A horror game where you play as a girl that is stuck in a randomly generated labyrinth in search
+                for a weapon that can bring down the monster that's following you.
+              </div>
             </div>
           </div>
         </div>
