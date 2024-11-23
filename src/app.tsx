@@ -38,14 +38,17 @@ export function App() {
         <div class="container">
           <div class="header">Work experience</div>
           <div class="element">
-            <div class="element-title">Frontend Developer Internship at NXP</div>
+            <div class="element-title">Frontend Developer at NXP</div>
             <div class="element-subtitle">
               <i class="fa fa-calendar"></i>
               May 2023 - Current
             </div>
             <div class="element-content">
-              Created a centralized dashboard for team and management usage.
-              My main tools were React, TypeScript, Vite, Python, and AWS. For version control we used Git with Bitbucket and
+              I created a centralized dashboard for team and management usage.
+              <br />
+              My main tools were React, TypeScript, Vite, Python, and AWS. 
+              <br />
+              For version control we used Git with Bitbucket and
               Jira for managing tickets.
             </div>
           </div>
@@ -56,8 +59,9 @@ export function App() {
               October 2022 - July 2023
             </div>
             <div class="element-content">
-              I worked as a teacher for high school and middle school students. My classes were focused on programming basics for
-              Python and Game Development.
+              I worked as a teacher for high school and middle school students. 
+              <br />
+              My classes were focused on programming basics for Python and Game Development.
             </div>
           </div>
           <div class="spacing" style="margin-bottom: 1rem;" />
@@ -67,17 +71,17 @@ export function App() {
               Centralized Dashboard for Team Usage
             </div>
             <div class="element-content">
-              CRUD SPA that features a fully typesafe frontend written in TypeScript with React and Vite.
+              A CRUD SPA that features a fully typesafe frontend written in TypeScript with React and Vite.
               For the backend we used Python with AWS and Serverless.
               <br />
-              It features systems for authentication, inventory management, board reservations, usage metrics,
-              access management, features to extend the dashboard, and much more.
+              It features systems for authentication, inventory management, board reservation, usage metrics,
+              access management, a DSL for extending the dashboard, and much more.
             </div>
             <div class="element-title">
               Board Inventory System
             </div>
             <div class="element-content">
-              A page for managing boards. The data is inputed by the user and saved in a DynamoDB table.
+              A page for managing boards. The data is inputted by the user and saved in a DynamoDB table.
               A JSON configuration file is used to generate the input fields so that the frontend doesn't need to be updated
               every time a new field is needed.
             </div>
@@ -85,16 +89,16 @@ export function App() {
               Board Reservation System
             </div>
             <div class="element-content">
-              A page managing board reservations. The board data is taken from the same table and configuration file as
+              A page for managing board reservations. The board data is taken from the same table and configuration file as
               the inventory system. It features instant reservations and scheduled reservations. Instant reservations start from the
-              moment that the board is free to use while scheduled reservations feature a calendar view where you can choose only
+              moment the board is free to use while scheduled reservations feature a calendar view where you can choose only
               valid timeframes.
             </div>
             <div class="element-title">
               Metrics Builder
             </div>
             <div class="element-content">
-              A page for seeing data about server and board usage. It features a system for creating charts and chart containers
+              A page for viewing data about server and board usage. It features a system for creating charts and chart containers
               that can be shared with other people.
             </div>
             <div class="element-title">
@@ -102,7 +106,7 @@ export function App() {
             </div>
             <div class="element-content">
               A page for creating configuration file schemas that can be filled in by users.
-              It features a JSON based Domain Specific Language for generating pages,
+              It features a JSON based Domain-Specific Language for generating pages,
               a text editor, and a result view for instant feedback on the page creation.
             </div>
             <div class="element-title">
