@@ -38,7 +38,7 @@ export function App() {
         <div class="container">
           <div class="header">Work experience</div>
           <div class="element">
-            <div class="element-title">Frontend Developer at NXP</div>
+            <div class="element-title">Tools Developer Internship at NXP</div>
             <div class="element-subtitle">
               <i class="fa fa-calendar"></i>
               May 2023 - Current
@@ -46,7 +46,7 @@ export function App() {
             <div class="element-content">
               I created a centralized dashboard for team and management usage.
               <br />
-              My main tools were React, TypeScript, Vite, Python, and AWS. 
+              My main tools were React, TypeScript, Vite, Python, PyTest, and AWS.
               <br />
               For version control we used Git with Bitbucket and
               Jira for managing tickets.
@@ -59,7 +59,7 @@ export function App() {
               October 2022 - July 2023
             </div>
             <div class="element-content">
-              I worked as a teacher for high school and middle school students. 
+              I worked as a teacher for high school and middle school students.
               <br />
               My classes were focused on programming basics for Python and Game Development.
             </div>
@@ -76,6 +76,12 @@ export function App() {
               <br />
               It features systems for authentication, inventory management, board reservation, usage metrics,
               access management, a DSL for extending the dashboard, and much more.
+            </div>
+            <div class="element-title">
+              API Integration Testing
+            </div>
+            <div class="element-content">
+              Designed and executed automated test cases to verify API endpoints, response accuracy, and performance using Python and PyTest.
             </div>
             <div class="element-title">
               Board Inventory System
@@ -108,13 +114,6 @@ export function App() {
               A page for creating configuration file schemas that can be filled in by users.
               It features a JSON based Domain-Specific Language for generating pages,
               a text editor, and a result view for instant feedback on the page creation.
-            </div>
-            <div class="element-title">
-              Permission Management System
-            </div>
-            <div class="element-content">
-              A page for managing user access. Admin users can edit permissions
-              of GET, POST, and DELETE to restrict access to certain pages.
             </div>
           </div>
           <Commented>
@@ -149,11 +148,11 @@ export function App() {
           <div id="skills">
             <div class="skill-level">Proeficient</div>
             <div class="skill-contents">
-              TypeScript - React - HTML - CSS - Godot
+              TypeScript - React - HTML - CSS - JavaScript - Godot
             </div>
             <div class="skill-level">Intermediate</div>
             <div class="skill-contents">
-              C# - Git - Python - Node
+              C# - Git - Python - PyTest - Node
             </div>
             <div class="skill-level">Starter</div>
             <div class="skill-contents">AWS - Serverless - Unity</div>
