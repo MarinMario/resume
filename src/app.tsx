@@ -172,7 +172,7 @@ export function App() {
                 A social media app for creating and sharing lyrics.
               </div>
               <div>
-                As on any social media app you can like, comment on, and create your own posts,
+                As on any social media app you can like posts, comment on them, and follow accounts,
                 but it also features tools for creating lyrics like integration with the Dexonline.ro API for fetching definitions, synonyms,
                 and antonyms.
               </div>
