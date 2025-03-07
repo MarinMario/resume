@@ -38,7 +38,7 @@ export function App() {
         <div class="container">
           <div class="header">Work experience</div>
           <div class="element">
-            <div class="element-title">Tools Developer Internship at NXP</div>
+            <div class="element-title">Tools Developer at NXP</div>
             <div class="element-subtitle">
               <i class="fa fa-calendar"></i>
               May 2023 - Current
@@ -152,7 +152,7 @@ export function App() {
             </div>
             <div class="skill-level">Intermediate</div>
             <div class="skill-contents">
-              C# - Git - Python - PyTest - Node
+              C# - ASP.NET - Git - Python - PyTest - Node
             </div>
             <div class="skill-level">Starter</div>
             <div class="skill-contents">AWS - Serverless - Unity</div>
@@ -165,6 +165,24 @@ export function App() {
           <div class="element">
             <div class="element-title margin-left">Personal Projects</div>
             <div class="element-content">
+              <div class="bold">
+                <a href="https://verset.info">Verset</a>
+              </div>
+              <div>
+                A social media app for creating and sharing lyrics.
+              </div>
+              <div>
+                As on any social media app you can like, comment on, and create your own posts,
+                but it also features tools for creating lyrics like integration with the Dexonline.ro API for fetching definitions, synonyms,
+                and antonyms.
+              </div>
+              <div>
+                I used TypeScript and React for the frontend, C# with ASP.Net for the backend, and SQLite for database.
+              </div>
+              <div class="margin-bottom">
+                It features SSO Google Authentication, and the backend is hosted on my personal server at home. It is exposed to the internet
+                through a Cloudflared tunnel.
+              </div>
               <div class="bold">
                 <a href="https://youtu.be/M9Y0Z8xiKIs?si=_n822txSEmuB-Uli">2D Bow Shooting Platformer</a>
               </div>
@@ -212,19 +230,10 @@ export function App() {
                 Plants vs Zombies clone with Robots and Machines.
               </div>
               <div class="bold">
-                <a href="https://maoitsme.itch.io/cave-treasuring">Community Game Jam</a>
-              </div>
-              <div class="margin-bottom">
-                Top Down game about
-                exploring a cave to find a treasure. On the way you can
-                interact with characters, fight monsters, and find better equipment.
-              </div>
-              <div class="bold">
                 <a href="https://maoitsme.itch.io/santa-giftrun">Discord Jam 3</a>
               </div>
               <div class="margin-bottom">
-                Hyper Casual game
-                where you play as Santa and jump over buildings to deliver presents.
+                Hyper Casual endless runner.
               </div>
               <div class="bold">
                 <a href="https://maoitsme.itch.io/sword-of-steiner">Ludum Dare 46</a>
@@ -236,8 +245,7 @@ export function App() {
                 <a href="https://maoitsme.itch.io/hellgirl">Mini Jam 69</a>
               </div>
               <div class="margin-bottom">
-                A horror game where you play as a girl that is stuck in a randomly generated labyrinth in search
-                for a weapon that can bring down the monster that's following you.
+                Top Down Horror game with procedurally generated maps.
               </div>
             </div>
           </div>
