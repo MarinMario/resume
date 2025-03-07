@@ -138,7 +138,7 @@ export function App() {
               September 2023 – 2026
             </div>
             <div class="element-content">
-              Academy of Economic Studies of Bucharest. Faculty of Cibernetics, Computer Science, and Statistics.
+              CSIE ASE -
               Department of Computer Science and Economics.
             </div>
           </div>
